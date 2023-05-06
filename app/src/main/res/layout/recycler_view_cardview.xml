@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+      <ImageView
+          android:id="@+id/img_item_photo"
+          android:layout_width="178dp"
+          android:layout_height="178dp"
+          android:src="@drawable/ahmad">
+
+      </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tittle"
+            android:textColor="@color/black"
+            android:textSize="30sp">
+        </TextView>
+
+            <TextView
+                android:id="@+id/tv_item_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="subtitle"
+                android:maxLength="100"
+                android:textSize="14sp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Share">
+
+                </Button>
+
+                <Button
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:text="Favorite">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
